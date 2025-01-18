@@ -1,7 +1,6 @@
 {
    "image": "mcr.microsoft.com/devcontainers/go",
    "customizations": {
-		// Configure properties specific to VS Code.
 		"vscode": {
 			"settings": {},
 			"extensions": [
