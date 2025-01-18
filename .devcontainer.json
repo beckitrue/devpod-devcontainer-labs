@@ -21,14 +21,8 @@
 			"label": "Hello Remote World",
 			"onAutoForward": "notify"
 		}
-	},
+	}
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "go version",
-   "features": {
-                "ghcr.io/devcontainers-contrib/features/fzf:1": {},
-                "ghcr.io/kreemer/features/stow:1": {},
-                "ghcr.io/devcontainers-extra/features/ripgrep:1": {},
-                "ghcr.io/devcontainers-extra/features/starship:1": {},
-   }
 }		
