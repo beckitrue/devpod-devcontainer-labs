@@ -36,14 +36,29 @@ Other IDEs are supported, but this lab will use VS Code and IntelliJ as examples
 
 ### Image Links
 
+Copy the image link to use in step 3 above. You can also use these links to create a Github Codespace.
+
+- [Go](https://github.com/microsoft/vscode-remote-try-go)
+- [Python](https://github.com/microsoft/vscode-remote-try-python)
+- [Node JS](https://github.com/microsoft/vscode-remote-try-node)
+- [Java](https://github.com/microsoft/vscode-remote-try-java)
+- [Rust](https://github.com/microsoft/vscode-remote-try-rust)
+- [Dotnet](https://github.com/microsoft/vscode-remote-try-dotnet)
+- [C++](https://github.com/microsoft/vscode-remote-try-cpp)
+
+### Quick Start Image Links
+
+Use these links if you want to use the DevPod Desktop instead of the CLI to create a new workspace. Clicking on the link will open your DevPod Desktop and create a new workspace with the selected image.
+
+<details><summary>Quick Start Image Links</summary>
 - [Go](https://devpod.sh/open#https://github.com/microsoft/vscode-remote-try-go)
 - [Python](https://devpod.sh/open#https://github.com/microsoft/vscode-remote-try-python)
 - [Node JS](https://devpod.sh/open#https://github.com/microsoft/vscode-remote-try-node)
 - [Java](https://devpod.sh/open#https://github.com/microsoft/vscode-remote-try-java)
 - [Rust](https://devpod.sh/open#https://github.com/microsoft/vscode-remote-try-rust)
 - [Dotnet](https://devpod.sh/open#https://github.com/microsoft/vscode-remote-try-dotnet)
-- [PHP](https://devpod.sh/open#https://github.com/microsoft/vscode-remote-try-php)
 - [C++](https://devpod.sh/open#https://github.com/microsoft/vscode-remote-try-cpp)
+</details>
 
 ### Advanced Configuration Steps
 
