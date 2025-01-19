@@ -19,6 +19,22 @@ Build a devpod with go image and VS Code as the IDE.
 
 4. VS Code will open.
 
+### Advanced Steps
+
+Some options you may want to set for your devpod:
+
+1. Set your `dotfiles` URL
+```devpod context set-options DOTFILES_URL <URL>```
+
+2. Inject Git credentials into your devpod workspace
+```devpod context set-options -o SSH_INJECT_GIT_CREDENTIALS=<true|false>```
+
+3. Inject Docker credentials into your devpod workspa
+```devpod context set-options -o SSH_INJECT_DOCKER_CREDENTIALS=<true|false>```
+
+4. For a full list of options, and to veryify your context option settings:
+```devpod context options```
+
 
 ## Next Steps
 - You can use the terminal in VS Code to clone your own repository and start coding. 
