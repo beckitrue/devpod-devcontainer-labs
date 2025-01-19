@@ -50,7 +50,6 @@ Copy the image link to use in step 3 above. You can also use these links to crea
 
 Use these links if you want to use the DevPod Desktop instead of the CLI to create a new workspace. Clicking on the link will open your DevPod Desktop and create a new workspace with the selected image.
 
-<details><summary>Quick Start Image Links</summary>
 - [Go](https://devpod.sh/open#https://github.com/microsoft/vscode-remote-try-go)
 - [Python](https://devpod.sh/open#https://github.com/microsoft/vscode-remote-try-python)
 - [Node JS](https://devpod.sh/open#https://github.com/microsoft/vscode-remote-try-node)
@@ -58,7 +57,6 @@ Use these links if you want to use the DevPod Desktop instead of the CLI to crea
 - [Rust](https://devpod.sh/open#https://github.com/microsoft/vscode-remote-try-rust)
 - [Dotnet](https://devpod.sh/open#https://github.com/microsoft/vscode-remote-try-dotnet)
 - [C++](https://devpod.sh/open#https://github.com/microsoft/vscode-remote-try-cpp)
-</details>
 
 ### Advanced Configuration Steps
 
