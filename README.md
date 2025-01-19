@@ -11,28 +11,28 @@ After completing this lab, you will have a better understanding of how to use de
 - [Docker](https://docs.docker.com/get-docker/)
 - [DevPod](https://devpod.sh/docs/getting-started/install#install-devpod)
 
-## IDE of your choice
+## IDEs
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [JetBrains](https://www.jetbrains.com/) and [JetBrains Gateway](https://www.jetbrains.com/remote-development/gateway/)
+- [JetBrains](https://www.jetbrains.com/) and [JetBrains Gateway](https://www.jetbrains.com/remote-development/gateway/) (Optional) 
 
-Other IDEs are supported, but this lab will use VS Code and IntelliJ as examples. If you want to run a fully configured [Neovim](https://neovim.io/) devcontainer, you can use the following image link: [devpod-neovim](https://github.com/beckitrue/devpod-neovim)
+Other IDEs are supported, but this lab will use VS Code and IntelliJ as examples. For example, if you want to run a fully configured [Neovim](https://neovim.io/) devcontainer, you can use the following image link: [devpod-neovim](https://github.com/beckitrue/devpod-neovim)
 
 
-## Steps
+## CLI instructions to create a DevPod Workspace with VS Code 
 
-1. Set your devpod provider to `docker`
+1. Set your devpod provider to Docker
 ```devpod provider docker```
 
 2. Verify your devpod provider
 ```devpod provider list```
 
-3. Set your IDE to `vscode` or `intellij`
-```devpod ide use <vscode|intellij>```
+3. Set your IDE to `vscode` 
+```devpod ide use vscode```
 
 3. Create a new devpod with one of the quick start images below
 ```devpod up <image link>```
 
-4. IDE will open. [JetBrains Gateway will open](https://devpod.sh/docs/getting-started/quickstart-jetbrains) if you are using IntelliJ.
+4. VS Code will open
 
 ### Image Links
 
@@ -63,11 +63,13 @@ Some options you may want to set for your [DevPod Workspace](https://devpod.sh/d
 
 ## Next Steps to Try
 
-- Use the terminal in the IDE to clone your own repository and start coding. 
-- Add a [startup script](https://devpod.sh/docs/developing-in-workspaces/dotfiles-in-a-workspace) to your `dotfiles` repository to clone your repositories and run your setup scripts.
+- Use the terminal in VS Code to clone your own repository and start coding 
+- Add a [startup script](https://devpod.sh/docs/developing-in-workspaces/dotfiles-in-a-workspace) to your `dotfiles` repository to clone your repositories and run your setup scripts
 - Make a copy of the provided `.devcontainer.json` and modify it to customize your devcontainer and [IDE settings](https://code.visualstudio.com/docs/devcontainers/containers#_dev-container-features)
-- Configure your `.devcontainer.json` file to install additional tools ([Features](https://containers.dev/features)) and IDE extensions.
-
+- Configure your `.devcontainer.json` file to install additional tools ([Features](https://containers.dev/features))
+- Try using the [JetBrains IDE](https://devpod.sh/docs/getting-started/quickstart-jetbrains) with the devcontainer
+- See what other IDEs are supported by DevPod and try one that you use ```devpod ide list```
+-
 ## Resources
 
 - [DevPod Quickstart Documentation](https://devpod.sh/docs/getting-started/quickstart)
@@ -76,4 +78,5 @@ Some options you may want to set for your [DevPod Workspace](https://devpod.sh/d
 - [JetBrains cutomizing devcontainer](https://www.jetbrains.com/help/idea/customizing-devcontainer-json-file.html)
 - [Devcontainer Available Feautres](https://containers.dev/features)
 - [Devcontainer Specification](https://containers.dev/implementors/spec/)
+- [DevPod Providers Documentation](https://devpod.sh/docs/managing-providers/add-provider)
 
